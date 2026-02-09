@@ -200,3 +200,107 @@ header .logo h1{
     transform: translateY(-5px);
     transition: 0.3s ease;
 }
+@media (max-width: 576px) {
+
+    header{
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .nav-auth{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-auth ul{
+        flex-direction: column;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .nav-auth ul li a{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .search-box input{
+        width: 180px;
+    }
+
+    .Event{
+        flex-direction: column;
+        margin: 30px 5%;
+    }
+
+    .ue{
+        width: 100%;
+    }
+
+    .block{
+        width: 90%;
+    }
+
+    .about-vision-row{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .clickable{
+        width: 100%;
+    }
+
+    .clickable img{
+        height: 180px;
+    }
+}
+@media (max-width: 768px) {
+
+    header{
+        padding: 20px 5%;
+    }
+
+    .search-box input{
+        width: 220px;
+    }
+
+    .Event{
+        flex-direction: column;
+        margin: 40px 5%;
+    }
+
+    .ue{
+        width: 100%;
+    }
+
+    .block{
+        width: 90%;
+    }
+
+    .about-vision-row{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .clickable{
+        width: 100%;
+    }
+}
+@media (max-width: 1024px) {
+
+    header{
+        padding: 20px 6%;
+    }
+
+    .Event{
+        margin: 40px 6%;
+    }
+
+    .block{
+        width: 85%;
+    }
+
+    .about-vision-row{
+        width: 85%;
+    }
+}
